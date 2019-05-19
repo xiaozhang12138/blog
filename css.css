@@ -3,55 +3,43 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .all{
-    width: 600px;
     margin: 0 auto;
+    width: 900px;
 }
-.first{
-    margin-top: 30px;
-    border-collapse:collapse;
-    border: 1px solid #ccc;
-    width: 500px;
-    line-height: 100%;
-    text-align: left;
-    border-spacing:0;
+.kuai{
+    width: 600px;
+    height: 150px;
+    position: relative;
+    background-color: #4caf50;
+    border-radius: 5px;
+    margin: 30px;
+    color: #ffffff;
 }
-.all .first th{
-    border-bottom: 1px solid #ccc;
-    height: 30px;
-    padding: 8px;
-    font-weight: bold;
-    background: #4caf50;
-    color: #fff;
+.span{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 30px;
 }
-.all .first td{
-    height: 30px;
-    border-bottom: 1px solid #ccc;
-    padding: 8px
+.biaoti{
+    padding: 10px;
+    font-size: 30px;
 }
-.first tr:nth-child(even){
-    background: #f1f1f1;
+.xueba{
+    margin: 30px 10px ;
+    font-size: 20px;
 }
-.two{
-    margin-top: 30px;
-    width: 500px;
-    line-height: 100%;
-    text-align: left;
-    border-spacing:0;
+.blue{
+    background-color: #2196F3;
 }
-.all .two th{
-    border-bottom: 1px solid #ccc;
-    height: 30px;
-    padding: 8px;
-    font-weight: bold;
+.red{
+    background-color: #f44336;
 }
-.all .two td{
-    height: 30px;
-    border-bottom: 1px solid #ccc;
-    padding: 8px
+.yellow{
+    background-color: #ff9800;
 }
-.two tr:nth-child(even){
-    background: #f1f1f1;
-}
-
-
