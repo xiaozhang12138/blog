@@ -1,45 +1,7 @@
-
-*{
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-.all{
-    margin: 0 auto;
-    width: 900px;
-}
-.kuai{
-    width: 600px;
-    height: 150px;
-    position: relative;
-    background-color: #4caf50;
-    border-radius: 5px;
-    margin: 30px;
-    color: #ffffff;
-}
-.span{
+.left{
     position: absolute;
-    top: 5px;
-    right: 20px;
-    font-size: 30px;
-}
-.biaoti{
-    padding: 10px;
-    font-size: 30px;
-}
-.xueba{
-    margin: 30px 10px ;
-    font-size: 20px;
-}
-.blue{
-    background-color: #2196F3;
-}
-.red{
-    background-color: #f44336;
-}
-.yellow{
-    background-color: #ff9800;
+    top:50%;
+    left: 50%;
+    border: 4px solid red;
+    transform:translate(-50%,-50%);
 }
