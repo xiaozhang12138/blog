@@ -4,6 +4,10 @@ a, h1, h2, h3, h4, p, span.ul, li {
     margin: 0;
     padding: 0;
 }
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+    line-height: 1.75;
+}
 
 a {
     text-decoration: none;
@@ -22,5 +26,10 @@ ul {
 
 body {
     font: 14px/1.5 italic;
+    margin: 0 auto;
+}
+.widths {
+    min-width: 900px;
+    width: 1200px;
     margin: 0 auto;
 }
