@@ -1,3 +1,20 @@
+/*控制h2和p标签的上行的*/
+.hear-ref > h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hear-ref > p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-bottom: 75px;
+    color: #777;
+    font-style: italic;
+}
+
 /*导航栏部分*/
 nav {
     margin: 10px;
@@ -46,12 +63,6 @@ header {
     color: #fed136;
 }
 
-.referral h2 {
-    font-size: 40px;
-    margin-bottom: 25px;
-    line-height: 40px;
-}
-
 .referral h1 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 75px;
@@ -75,20 +86,6 @@ header {
 .services {
     text-align: center;
     padding: 150px 0;
-}
-
-.services > h2 {
-    font-size: 40px;
-    margin-bottom: 15px;
-}
-
-.services > p {
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 400;
-    margin-bottom: 75px;
-    color: #777;
-    font-style: italic;
 }
 
 .intro > li {
@@ -122,4 +119,39 @@ header {
     font-size: 14px;
     line-height: 1.75;
 }
+
 /*家族介绍部分的写完了*/
+.portfolio {
+    padding: 150px 0;
+    background-color: rgb(247, 247, 247);
+}
+.portfolio > div >div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 33.333%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.portfolio-li > a {
+    display: inline-block;
+}
+.portfolio-li img {
+    width: 100%;
+    vertical-align:bottom;
+}
+.portfolio-li {
+    text-align: center;
+}
+
+.portfolio-li p {
+    font-style: italic;
+    font-size: 16px;
+    color: #777;
+}
+.portfolio-li > a:hover {
+    background-color: red;
+    z-index: 3;
+}
