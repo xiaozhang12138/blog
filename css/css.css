@@ -32,7 +32,7 @@ nav > a {
 
 .Nav-bar {
     float: right;
-    margin-right: 20px;
+    margin-right: 10%;
 
 }
 
@@ -345,11 +345,12 @@ main .about .be p {
     padding-left: 10px;
     margin-bottom: 25px;
     margin-right: 15px;
-    border-radius: 3%;
+    border-radius: 2%;
     font-size: 18px;
     line-height: 20px;
     color: #777;
     font-weight: 700;
+    border: 1px solid transparent;
 }
 
 .contact form div:first-of-type input:focus {
@@ -376,6 +377,7 @@ main .about .be p {
     font-weight: 700;
     letter-spacing: 2px;
     border-radius: 2%;
+    border: 1px solid transparent;
 }
 
 .contact form div textarea:focus {
@@ -402,31 +404,38 @@ footer {
     text-align: center;
     padding: 30px;
 }
-footer p{
+
+footer p {
     display: inline-block;
     width: 32%;
 }
+
 footer div {
     display: inline-block;
     width: 32%;
 }
+
 footer a {
-color: #000;
+    color: #000;
 }
+
 footer div:first-of-type a {
     font-size: 40px;
     transition-property: color;
     transition-duration: 0.3s;
     padding: 10px;
 }
+
 footer div:first-of-type a:hover {
     color: #fed136;
 }
+
 footer div:last-of-type a {
     padding: 10px;
     font-size: 20px;
     color: #fed731;
 }
+
 footer div:last-of-type a:hover {
     text-decoration: underline;
 }
